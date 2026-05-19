@@ -58,13 +58,13 @@ Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.
 
 ## Discussion
 
-Results indicated that the average chronic pain level for individuals with endometriosis was 5.31, compared to 4.84 for those without. As no statistical tests were run, we cannot definitively say there is a meaningful difference. Similarly, BMI showed minimal difference between groups (23.4 vs 22.8), suggesting it is not a strong distinguishing factor.
+Results indicated that the average chronic pain level for individuals with endometriosis was 5.31, compared to 4.84 for those without.  Similarly, BMI showed minimal difference between groups (23.4 vs 22.8), suggesting it is not a strong distinguishing factor.
 
 Among individuals who were infertile, the average menstrual irregularity score was 0.689, while fertile individuals had an average score of 0.701. This suggests that menstrual irregularity as a standalone metric is not a reliable indicator of infertility in this population.
 
 The most actionable finding was that 2,145 of 4,079 endometriosis patients (52.6%) presented with both abnormal hormone levels and menstrual irregularity. This symptom cluster captured over half of endometriosis cases, whereas individual factors showed minimal predictive value.
 
-A limiting factor was the minimum age of 18 in the dataset. Endometriosis symptoms often appear in adolescence; therefore, collecting data on individuals younger than 18 may reveal earlier patterns of symptom onset. Additionally, data on PMDD screening would be valuable, as it is a known comorbidity. Understanding this relationship may improve initial diagnoses and strengthen treatment options for both conditions.
+A limiting factor was the minimum age of 18 in the dataset. Endometriosis symptoms often appear in adolescence; therefore, collecting data on individuals younger than 18 may reveal earlier patterns of symptom onset. Additionally, data on PMDD screening would be valuable, as it is a known comorbidity. Understanding this relationship may improve initial diagnoses and strengthen treatment options for both conditions. As no statistical tests were run, we cannot definitively say there are meaningful differences.
 
 ## Conclusion
 
