@@ -1,4 +1,4 @@
-# Symptom-Based Screening for Endometriosis: An Exploratory SQL Analysis
+# Symptom-Based Screening for Endometriosis: An Exploratory Analysis
 
 ## Introduction
 
@@ -16,7 +16,7 @@ The purpose of this analysis was to identify symptom patterns that could inform 
 
 ## Methods
 
-Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.com/datasets/michaelanietie/endometriosis-dataset, n=10,000). Variables examined included demographics (age, BMI), symptom indicators (chronic pain level, menstrual irregularity, hormone level abnormality, infertility), and the outcome variable (endometriosis diagnosis). Analysis was conducted using SQL queries with aggregate functions (AVG, MIN, COUNT) and GROUP BY for group comparisons. No inferential statistical tests were performed.
+Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.com/datasets/michaelanietie/endometriosis-dataset, n=10,000). Variables examined included demographics (age, BMI), symptom indicators (chronic pain level, menstrual irregularity, hormone level abnormality, infertility), and the outcome variable (endometriosis diagnosis). Analysis was conducted using SQL queries with aggregate functions (AVG, MIN, COUNT) and GROUP BY for group comparisons. RStudio was used to peform logistic regression to predict diagnosis from variables. No inferential statistical tests were performed.
 
 ## Results
 
@@ -56,11 +56,16 @@ Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.
 | Total patients with endo | 4,079 |
 | Percentage | 52.6% |
 
+**Figure 1. Logistic Regression for Endometriosis Diagnoses**
+<img src="images/endo_table.png" width="600" height="600">
+
 ## Discussion
 
 Results indicated that the average chronic pain level for individuals with endometriosis was 5.31, compared to 4.84 for those without.  Similarly, BMI showed minimal difference between groups (23.4 vs 22.8), suggesting it is not a strong distinguishing factor.
 
 Among individuals who were infertile, the average menstrual irregularity score was 0.689, while fertile individuals had an average score of 0.701. This suggests that menstrual irregularity as a standalone metric is not a reliable indicator of infertility in this population.
+
+When all variables were placed into a model, all variables except age were a significant predictor.
 
 The most actionable finding was that 2,145 of 4,079 endometriosis patients (52.6%) presented with both abnormal hormone levels and menstrual irregularity. This symptom cluster captured over half of endometriosis cases, whereas individual factors showed minimal predictive value.
 
