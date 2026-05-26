@@ -56,16 +56,36 @@ Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.
 | Total patients with endo | 4,079 |
 | Percentage | 52.6% |
 
-**Figure 1. Logistic Regression for Endometriosis Diagnoses**
-<img src="images/endo_table.png" width="600" height="600">
+<div align="left">
+  <h3>Figure 1. Pain Scoring</h3>
+  <img src="images/Self-Reported Pain.jpeg" width="600">
+</div>
+
+<div align="left">
+  <h3>Figure 2. Participant BMI</h3>
+  <img src="images/Participant Body Mass Index Distribution.jpeg" width="600">
+</div>
+
+<div align="left">
+  <h3>Figure 3. Logistic Regression for Endometriosis Diagnoses</h3>
+  <img src="images/endo_table.png" width="600">
+</div>
+
+<div align="left">
+  <h3>Figure 4. Participant Age</h3>
+  <img src="images/Participant_Age.jpeg" width="600">
+</div>
+
+
+
 
 ## Discussion
 
-Results indicated that the average chronic pain level for individuals with endometriosis was 5.31, compared to 4.84 for those without.  Similarly, BMI showed minimal difference between groups (23.4 vs 22.8), suggesting it is not a strong distinguishing factor.
+Results indicated that the average chronic pain level for individuals with endometriosis was 5.31, compared to 4.84 for those without (Figure 1).  Similarly, BMI showed minimal difference between groups (23.4 vs 22.8), suggesting it is not a strong distinguishing factor (Figure 2).
 
 Among individuals who were infertile, the average menstrual irregularity score was 0.689, while fertile individuals had an average score of 0.701. This suggests that menstrual irregularity as a standalone metric is not a reliable indicator of infertility in this population.
 
-When all variables were placed into a model, all variables except age were a significant predictor.
+When all variables were placed into a model, all variables except age were a significant predictor (Figures 3 and 4).
 
 The most actionable finding was that 2,145 of 4,079 endometriosis patients (52.6%) presented with both abnormal hormone levels and menstrual irregularity. This symptom cluster captured over half of endometriosis cases, whereas individual factors showed minimal predictive value.
 
