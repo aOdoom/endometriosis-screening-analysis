@@ -94,11 +94,13 @@ Logistic regression indicated that all variables except age were significant pre
 The most actionable finding was that 2,145 of 4,079 endometriosis patients (52.6%) presented with both abnormal hormone levels and menstrual irregularity. This symptom cluster captured over half of endometriosis cases, whereas individual factors showed minimal predictive value.
 
 ## Limitations and next steps
-This analysis used synthetic data which limits how the results generalize to clinical data.
+This analysis used synthetic data which limits how the results generalize to clinical populations.
 Primary limitations of the synthetic data are:
-- The minimum age of 18. Endometriosis symptoms often appear in adolescence; therefore, data on individuals younger than 18 may reveal earlier patterns of symptom onset.
+- The dataset's minimum age of 18. Endometriosis symptoms often appear in adolescence; therefore, data on individuals younger than 18 may reveal earlier patterns of symptom onset.
 - Data on Premenstrual Dysphoric Disorder (PMDD) screening would be valuable, as it is a known comorbidity. Understanding this relationship may improve initial diagnoses and strengthen treatment options for both conditions.
-- Additionally, screening data on uterine fibroids would also allow exploration of its co-occurence with endometriosis.
+- Additionally, screening data on uterine fibroids would also allow exploration of its co-occurrence with endometriosis as both conditions share risk factors and overlap clinically.
+
+Replicating this analysis on real-world data is a viable next step to test whether the identified symptom cluster holds in clinical populations.
 
 ## Conclusion
 
