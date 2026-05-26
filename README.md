@@ -93,13 +93,14 @@ Logistic regression indicated that all variables except age were significant pre
 
 The most actionable finding was that 2,145 of 4,079 endometriosis patients (52.6%) presented with both abnormal hormone levels and menstrual irregularity. This symptom cluster captured over half of endometriosis cases, whereas individual factors showed minimal predictive value.
 
-A limiting factor was the minimum age of 18 in the dataset. Endometriosis symptoms often appear in adolescence; therefore, collecting data on individuals younger than 18 may reveal earlier patterns of symptom onset. Additionally, data on PMDD screening would be valuable, as it is a known comorbidity. Understanding this relationship may improve initial diagnoses and strengthen treatment options for both conditions.
-Synthetic data is also a limitation as it does not represent real-world conditions.
+## Limitations and next steps
+This analysis used synthetic data which limits how the results generalize to clinical data.
+Primary limitations of the synthetic data are:
+- The minimum age of 18. Endometriosis symptoms often appear in adolescence; therefore, data on individuals younger than 18 may reveal earlier patterns of symptom onset.
+- Data on Premenstrual Dysphoric Disorder (PMDD) screening would be valuable, as it is a known comorbidity. Understanding this relationship may improve initial diagnoses and strengthen treatment options for both conditions.
+- Additionally, screening data on uterine fibroids would also allow exploration of its co-occurence with endometriosis.
 
 ## Conclusion
 
 Individuals presenting with both abnormal hormone levels and menstrual irregularity should be prioritized for endometriosis screening, as this combination captured over 50% of diagnosed cases. Single factors such as BMI and age did not reliably distinguish between groups, reinforcing that combination screening is more effective than relying on individual symptoms. 
 
-## Next Steps
-
-I would want to explore how likely an individual is to have fibroids if they have an endometriosis diagnosis.
