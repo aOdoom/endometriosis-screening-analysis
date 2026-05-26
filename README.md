@@ -76,6 +76,10 @@ Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.
   <img src="images/Participant_Age.jpeg" width="500">
 </div>
 
+<div align="left">
+  <h3>Figure 5. Odds Ratio Plot</h3>
+  <img src="images/Odd Ratio Plot.jpeg" width="500">
+</div>
 
 
 
@@ -85,7 +89,7 @@ Results indicated that the average chronic pain level for individuals with endom
 
 Among individuals who were infertile, the average menstrual irregularity score was 0.689, while fertile individuals had an average score of 0.701. This suggests that menstrual irregularity as a standalone metric is not a reliable indicator of infertility in this population.
 
-When all variables were placed into a model, all variables except age were a significant predictor (Figures 3 and 4).
+When all variables were placed into a model, all variables except age were a significant predictor (Figures 3, 4, 5).
 
 The most actionable finding was that 2,145 of 4,079 endometriosis patients (52.6%) presented with both abnormal hormone levels and menstrual irregularity. This symptom cluster captured over half of endometriosis cases, whereas individual factors showed minimal predictive value.
 
