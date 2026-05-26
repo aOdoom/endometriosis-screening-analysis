@@ -16,7 +16,7 @@ The purpose of this analysis was to identify symptom patterns that could inform 
 
 ## Methods
 
-Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.com/datasets/michaelanietie/endometriosis-dataset, n=10,000). Variables examined included demographics (age, BMI), symptom indicators (chronic pain level, menstrual irregularity, hormone level abnormality, infertility), and the outcome variable (endometriosis diagnosis). Analysis was conducted using SQL queries with aggregate functions (AVG, MIN, COUNT) and GROUP BY for group comparisons. RStudio was used to peform logistic regression to predict diagnosis from variables. T-tests were run on age, BMI, and pain level to detect any meaningful differences.
+Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.com/datasets/michaelanietie/endometriosis-dataset, n=10,000). Variables examined included demographics (age, BMI), symptom indicators (chronic pain level, menstrual irregularity, hormone level abnormality, infertility), and the outcome variable (endometriosis diagnosis). Analysis was conducted using SQL queries with aggregate functions (AVG, MIN, COUNT) and GROUP BY for group comparisons. RStudio was used to peform logistic regression to identify predictors of endometriosis. T-tests were run on age, BMI, and pain level to detect any meaningful differences.
 
 ## Results
 
@@ -85,11 +85,11 @@ Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.
 
 ## Discussion
 
-Results indicated that the average chronic pain level for individuals with endometriosis was 5.31, compared to 4.84 for those without (Figure 1).  Similarly, BMI showed minimal difference between groups (23.4 vs 22.8), suggesting it is not a strong distinguishing factor (Figure 2).
+Indiividuals with endometriosis had higher pain levels (5.31 vs 4.84, p < 0.001) and BMI (23.4 vs 22.8, p < 0.001) (Figures 1 and 2). The difference was small (0.6 points), which suggests that BMI as a standalone metric may not be useful. 
 
-Among individuals who were infertile, the average menstrual irregularity score was 0.689, while fertile individuals had an average score of 0.701. This suggests that menstrual irregularity as a standalone metric is not a reliable indicator of infertility in this population.
+Among individuals who were infertile, menstrual irregularity was similar to individuals who were fertile (0.689 vs 0.701). This suggests that menstrual irregularity by itself is not a reliable indicator of infertility in this population.
 
-When all variables were placed into a model, all variables except age were a significant predictor (Figures 3, 4, 5).
+Logistic regression indicated that all variables except age were significant predictors in an individual having an endometriosis diagnosis. (Figures 3, 4, 5). Individuals with hormone irregularity had 2.28 times the odds of having an endometriosis diagnosis compared to those without irregularity.
 
 The most actionable finding was that 2,145 of 4,079 endometriosis patients (52.6%) presented with both abnormal hormone levels and menstrual irregularity. This symptom cluster captured over half of endometriosis cases, whereas individual factors showed minimal predictive value.
 
