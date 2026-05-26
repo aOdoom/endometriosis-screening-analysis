@@ -26,14 +26,10 @@ pacman::p_load(
   ggpubr
 )
 
-# set root directory and make into object
-root_dir <- "/Users/adwoaodoom/Desktop/Ad-Hoc Projects"
-
 
 ## -----------------------------------------------------------------------------------------------------------------------
 # import dataset
-endo <- rio::import(here::here(root_dir, "structured_endometriosis_data.csv"))
-
+endo <- read_csv("structured_endometriosis_data.csv")
 
 ## -----------------------------------------------------------------------------------------------------------------------
 # explore dataset
