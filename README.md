@@ -16,7 +16,7 @@ The purpose of this analysis was to identify symptom patterns that could inform 
 
 ## Methods
 
-Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.com/datasets/michaelanietie/endometriosis-dataset, n=10,000). Variables examined included demographics (age, BMI), symptom indicators (chronic pain level, menstrual irregularity, hormone level abnormality, infertility), and the outcome variable (endometriosis diagnosis). Analysis was conducted using SQL queries with aggregate functions (AVG, MIN, COUNT) and GROUP BY for group comparisons. RStudio was used to peform logistic regression to predict diagnosis from variables. No inferential statistical tests were performed.
+Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.com/datasets/michaelanietie/endometriosis-dataset, n=10,000). Variables examined included demographics (age, BMI), symptom indicators (chronic pain level, menstrual irregularity, hormone level abnormality, infertility), and the outcome variable (endometriosis diagnosis). Analysis was conducted using SQL queries with aggregate functions (AVG, MIN, COUNT) and GROUP BY for group comparisons. RStudio was used to peform logistic regression to predict diagnosis from variables. T-tests were run on age, BMI, and pain level to detect any meaningful differences.
 
 ## Results
 
@@ -58,22 +58,22 @@ Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.
 
 <div align="left">
   <h3>Figure 1. Pain Scoring</h3>
-  <img src="images/Self-Reported Pain.jpeg" width="600">
+  <img src="images/Self-Reported Pain.jpeg" width="500">
 </div>
 
 <div align="left">
   <h3>Figure 2. Participant BMI</h3>
-  <img src="images/Participant Body Mass Index Distribution.jpeg" width="600">
+  <img src="images/Participant Body Mass Index Distribution.jpeg" width="500">
 </div>
 
 <div align="left">
   <h3>Figure 3. Logistic Regression for Endometriosis Diagnoses</h3>
-  <img src="images/endo_table.png" width="600">
+  <img src="images/endo_table.png" width="500">
 </div>
 
 <div align="left">
   <h3>Figure 4. Participant Age</h3>
-  <img src="images/Participant_Age.jpeg" width="600">
+  <img src="images/Participant_Age.jpeg" width="500">
 </div>
 
 
@@ -89,7 +89,7 @@ When all variables were placed into a model, all variables except age were a sig
 
 The most actionable finding was that 2,145 of 4,079 endometriosis patients (52.6%) presented with both abnormal hormone levels and menstrual irregularity. This symptom cluster captured over half of endometriosis cases, whereas individual factors showed minimal predictive value.
 
-A limiting factor was the minimum age of 18 in the dataset. Endometriosis symptoms often appear in adolescence; therefore, collecting data on individuals younger than 18 may reveal earlier patterns of symptom onset. Additionally, data on PMDD screening would be valuable, as it is a known comorbidity. Understanding this relationship may improve initial diagnoses and strengthen treatment options for both conditions. As no statistical tests were run, we cannot definitively say there are meaningful differences.
+A limiting factor was the minimum age of 18 in the dataset. Endometriosis symptoms often appear in adolescence; therefore, collecting data on individuals younger than 18 may reveal earlier patterns of symptom onset. Additionally, data on PMDD screening would be valuable, as it is a known comorbidity. Understanding this relationship may improve initial diagnoses and strengthen treatment options for both conditions. 
 
 ## Conclusion
 
