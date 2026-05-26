@@ -67,13 +67,13 @@ Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.
 </div>
 
 <div align="left">
-  <h3>Figure 3. Logistic Regression for Endometriosis Diagnoses</h3>
-  <img src="images/endo_table.png" width="500">
+  <h3>Figure 3. Participant Age</h3>
+  <img src="images/Participant_Age.jpeg" width="500">
 </div>
 
 <div align="left">
-  <h3>Figure 4. Participant Age</h3>
-  <img src="images/Participant_Age.jpeg" width="500">
+  <h3>Figure 4. Logistic Regression for Endometriosis Diagnoses</h3>
+  <img src="images/endo_table.png" width="500">
 </div>
 
 <div align="left">
