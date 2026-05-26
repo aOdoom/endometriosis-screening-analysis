@@ -16,7 +16,7 @@ The purpose of this analysis was to identify symptom patterns that could inform 
 
 ## Methods
 
-Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.com/datasets/michaelanietie/endometriosis-dataset, n=10,000). Variables examined included demographics (age, BMI), symptom indicators (chronic pain level, menstrual irregularity, hormone level abnormality, infertility), and the outcome variable (endometriosis diagnosis). Analysis was conducted using SQL queries with aggregate functions (AVG, MIN, COUNT) and GROUP BY for group comparisons. RStudio was used to peform logistic regression to identify predictors of endometriosis. T-tests were run on age, BMI, and pain level to detect any meaningful differences.
+Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.com/datasets/michaelanietie/endometriosis-dataset, n=10,000). Variables examined included demographics (age, BMI), symptom indicators (chronic pain level, menstrual irregularity, hormone level abnormality, infertility), and the outcome variable (endometriosis diagnosis). Analysis was conducted using SQL queries with aggregate functions (AVG, MIN, COUNT) and GROUP BY for group comparisons. RStudio was used to perform logistic regression to identify predictors of endometriosis. T-tests were run on age, BMI, and pain level to detect any meaningful differences.
 
 ## Results
 
@@ -85,7 +85,7 @@ Data were obtained from the Endometriosis Dataset on Kaggle (https://www.kaggle.
 
 ## Discussion
 
-Indiividuals with endometriosis had higher pain levels (5.31 vs 4.84, p < 0.001) and BMI (23.4 vs 22.8, p < 0.001) (Figures 1 and 2). The difference was small (0.6 points), which suggests that BMI as a standalone metric may not be useful. 
+Individuals with endometriosis had higher pain levels (5.31 vs 4.84, p < 0.001) and BMI (23.4 vs 22.8, p < 0.001) (Figures 1 and 2). The difference was small (0.6 points) for BMI, which suggests limited usefulness as a metric. 
 
 Among individuals who were infertile, menstrual irregularity was similar to individuals who were fertile (0.689 vs 0.701). This suggests that menstrual irregularity by itself is not a reliable indicator of infertility in this population.
 
@@ -97,4 +97,4 @@ A limiting factor was the minimum age of 18 in the dataset. Endometriosis sympto
 
 ## Conclusion
 
-Individuals presenting with both abnormal hormone levels and menstrual irregularity should be prioritized for endometriosis screening, as this combination captured over 50% of diagnosed cases. Single factors such as BMI, age, and menstrual irregularity alone did not reliably distinguish between groups, reinforcing that combination screening is more effective than relying on individual symptoms.
+Individuals presenting with both abnormal hormone levels and menstrual irregularity should be prioritized for endometriosis screening, as this combination captured over 50% of diagnosed cases. Single factors such as BMI and age did not reliably distinguish between groups, reinforcing that combination screening is more effective than relying on individual symptoms.
